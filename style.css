@@ -101,5 +101,69 @@ ul {
     text-align: center;
     padding: 5px 15px;
     border-radius: 4px;
-
 }
+
+.boxes {
+    background-color: #F9FAF8;
+    height: 400px;
+}
+
+.boxes .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.boxes h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.boxes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: solid #3882f6
+}
+
+.boxes .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: -30px;
+}
+
+.boxes .item {
+    max-width: 150px;
+    text-align: center;
+    color: #1f2937 /* Find the correct color and size */
+}
+
+.quote {
+    background-color: #E5e7eb;
+    height: 400px;
+}
+
+.quote .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.quote .quote-box {
+    width: 75%;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-box figcaption {
+    text-align: end;
+}
+
